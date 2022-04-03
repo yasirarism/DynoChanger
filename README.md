@@ -55,12 +55,9 @@ You need to deploy two similar apps to two heroku accounts. If the day you deplo
 
 <h4>Optional Variables</h4>
 
-The script supports up to 5 pair of apps simultaneously. You may add these vars if you need it.<br>
-`SECOND_PROCESSTYPE`, `SECOND_A_APPNAME`, `SECOND_A_APIKEY`, `SECOND_B_APPNAME`, `SECOND_B_APIKEY`<br>
-`THIRD_PROCESSTYPE`, `THIRD_A_APPNAME`, `THIRD_A_APIKEY`, `THIRD_B_APPNAME`, `THIRD_B_APIKEY`<br>
-`FOURTH_PROCESSTYPE`, `FOURTH_A_APPNAME`, `FOURTH_A_APIKEY`, `FOURTH_B_APPNAME`, `FOURTH_B_APIKEY`<br>
-`FIFTH_PROCESSTYPE`, `FIFTH_A_APPNAME`, `FIFTH_A_APIKEY`, `FIFTH_B_APPNAME`, `FIFTH_B_APIKEY`<br>
+The script supports up to 6 pair of apps simultaneously. You may add these vars if you need it.<br>
 
-If you need more than 5 apps, you can extend the code as much as you want, or if you don't know how to do it, just deploy more of this script, it works too.
+
+If you need more than 6 apps, you can extend the code as much as you want, or if you don't know how to do it, just deploy more of this script, it works too.
 
 <b><i>Credits : </i></b>[Katarina](https://t.me/katarina_ox)

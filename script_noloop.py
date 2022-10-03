@@ -43,6 +43,7 @@ today = datetime.now()
 # First pair of apps
 print("Checking the conditions for the first app..")
 if(len(FIRST_PROCESSTYPE) != 0 and len(FIRST_A_APIKEY) != 0 and len(FIRST_A_APPNAME) != 0 and len(FIRST_B_APIKEY) != 0 and len(FIRST_B_APPNAME) != 0):
+  print(f"[#1] App1: {FIRST_A_APPNAME}, App2: {FIRST_B_APPNAME}")
   if(today.day == 15):
     print("[#1] Changing the dyno to the second acc..")
     heroku_conn = heroku3.from_key(FIRST_A_APIKEY)
@@ -75,6 +76,7 @@ else:
 # Second pair of apps
 print("Checking the conditions for the second app..")
 if(len(SECOND_PROCESSTYPE) != 0 and len(SECOND_A_APIKEY) != 0 and len(SECOND_A_APPNAME) != 0 and len(SECOND_B_APIKEY) != 0 and len(SECOND_B_APPNAME) != 0):
+  print(f"[#2] App1: {SECOND_A_APPNAME}, App2: {SECOND_B_APPNAME}")
   if(today.day == 15):
     print("[#2] Changing the dyno to the second acc..")
     heroku_conn = heroku3.from_key(SECOND_A_APIKEY)
@@ -107,6 +109,7 @@ else:
 # third pair of apps
 print("Checking the conditions for the third app..")
 if(len(THIRD_PROCESSTYPE) != 0 and len(THIRD_A_APIKEY) != 0 and len(THIRD_A_APPNAME) != 0 and len(THIRD_B_APIKEY) != 0 and len(THIRD_B_APPNAME) != 0):
+  print(f"[#3] App1: {THIRD_A_APPNAME}, App2: {THIRD_B_APPNAME}")
   if(today.day == 15):
     print("[#3] Changing the dyno to the second acc..")
     heroku_conn = heroku3.from_key(THIRD_A_APIKEY)
@@ -139,6 +142,7 @@ else:
 # fourth pair of apps
 print("Checking the conditions for the fourth app..")
 if(len(FOURTH_PROCESSTYPE) != 0 and len(FOURTH_A_APIKEY) != 0 and len(FOURTH_A_APPNAME) != 0 and len(FOURTH_B_APIKEY) != 0 and len(FOURTH_B_APPNAME) != 0):
+  print(f"[#4] App1: {FOURTH_A_APPNAME}, App2: {FOURTH_B_APPNAME}")
   if(today.day == 15):
     print("[#4] Changing the dyno to the second acc..")
     heroku_conn = heroku3.from_key(FOURTH_A_APIKEY)
@@ -171,6 +175,7 @@ else:
 # fifth pair of apps
 print("Checking the conditions for the fifth app..")
 if(len(FIFTH_PROCESSTYPE) != 0 and len(FIFTH_A_APIKEY) != 0 and len(FIFTH_A_APPNAME) != 0 and len(FIFTH_B_APIKEY) != 0 and len(FIFTH_B_APPNAME) != 0):
+  print(f"[#5] App1: {FIFTH_A_APPNAME}, App2: {FIFTH_B_APPNAME}")
   if(today.day == 15):
     print("[#5] Changing the dyno to the second acc..")
     heroku_conn = heroku3.from_key(FIFTH_A_APIKEY)
@@ -203,6 +208,7 @@ else:
 #Sixth Pair of Apps    
 print("Checking the conditions for the sixth app..")
 if(len(SIXTH_PROCESSTYPE) != 0 and len(SIXTH_A_APIKEY) != 0 and len(SIXTH_A_APPNAME) != 0 and len(SIXTH_B_APIKEY) != 0 and len(SIXTH_B_APPNAME) != 0):
+  print(f"[#6] App1: {SIXTH_A_APPNAME}, App2: {SIXTH_B_APPNAME}")
   if(today.day == 15):
     print("[#6] Changing the dyno to the second acc..")
     heroku_conn = heroku3.from_key(SIXTH_A_APIKEY)
